@@ -8,6 +8,7 @@ import { ContactPage } from './pages/ContactPage';
 import { VrnjcankaPage } from './pages/VrnjcankaPage';
 import { GalleryPage } from './pages/GalleryPage';
 import { ApartmentPage } from './pages/ApartmentPage';
+import { ProjectPage } from './pages/ProjectPage';
 import { LoadingScreen } from './components/loading/LoadingScreen';
 import { useEffect, useState } from 'react';
 
@@ -39,6 +40,7 @@ const App: FC = () => {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/vrnjcanka" element={<VrnjcankaPage />} />
           <Route path="/gallery" element={<GalleryPage />} />
+          <Route path="/o-projektu" element={<ProjectPage />} />
           <Route path="/properties/business-space" element={<BusinessSpacePage />} />
           <Route path="/properties/apartment/:id" element={<ApartmentPage />} />
         </Routes>

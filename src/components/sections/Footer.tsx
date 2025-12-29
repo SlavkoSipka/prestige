@@ -47,16 +47,22 @@ export const Footer: FC = () => {
       </div>
       <div className="border-t border-marina-gold/20 pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4 text-marina-gold/80 text-sm sm:text-base">
         <p className="text-center md:text-left">&copy; {new Date().getFullYear()} Prestige Gradnja. Sva prava zadržana.</p>
-        <div className="flex items-center gap-1 sm:gap-2">
-          <span className="text-sm sm:text-base">Dizajn i razvoj:</span>
+        <div className="flex flex-col md:flex-row items-center gap-2 sm:gap-4">
           <a 
-            href="https://aisajt.com" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="text-marina-gold hover:text-white transition-colors flex items-center gap-1 sm:gap-2"
+            href="/o-projektu"
+            className="text-marina-gold hover:text-white transition-colors text-sm sm:text-base"
           >
-            aisajt.com
+            O projektu
           </a>
+          <div className="flex items-center gap-1 sm:gap-2">
+            <span className="text-sm sm:text-base">Dizajn i razvoj:</span>
+            <a 
+              href="https://aisajt.com" 
+              className="text-marina-gold hover:text-white transition-colors flex items-center gap-1 sm:gap-2"
+            >
+              AiSajt
+            </a>
+          </div>
         </div>
       </div>
     </div>
