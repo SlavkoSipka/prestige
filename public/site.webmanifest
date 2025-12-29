@@ -1,0 +1,17 @@
+{
+  "name": "Prestige Gradnja - Luksuzne Nekretnine Vrnjačka Banja",
+  "short_name": "VB Prestige",
+  "description": "Premium novogradnja u centru Vrnjačke Banje. Luksuzni stanovi i garsonjere direktno od investitora.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B1A2B",
+  "theme_color": "#C4A962",
+  "icons": [
+    {
+      "src": "http://aislike.rs/BOSS/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
