@@ -259,7 +259,7 @@ export const ProjectPage: FC = () => {
                     </p>
                     <p className="text-white/90 leading-relaxed text-base sm:text-lg">
                       Projekat je realizovan u saradnji sa <a href="https://aisajt.com" className="text-marina-gold hover:text-white transition-colors underline">AiSajt</a> timom, 
-                      koji je pružio kompletnu uslugu <a href="https://aisajt.com/izrada-sajtova" className="text-marina-gold hover:text-white transition-colors underline">izrade web sajta</a> i tehničke optimizacije, 
+                      koji je pružio kompletnu uslugu <a href="https://aisajt.com/izrada-sajta-cena" className="text-marina-gold hover:text-white transition-colors underline">izrade web sajta</a> i tehničke optimizacije, 
                       osiguravajući da finalni proizvod ispunjava sve postavljene ciljeve i očekivanja klijenta.
                     </p>
                   </div>
