@@ -8,7 +8,7 @@
   "theme_color": "#C4A962",
   "icons": [
     {
-      "src": "http://aislike.rs/BOSS/android-chrome-512x512.png",
+      "src": "/images/BOSS/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

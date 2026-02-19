@@ -157,7 +157,7 @@ export const VrnjcankaPage: FC = () => {
         <main className="bg-[#0B1A2B] relative overflow-hidden">
           <div className="fixed inset-0 z-0">
             <img
-              src="http://aislike.rs/BOSS/var3_6 - Photo.jpg"
+              src="/images/BOSS/var3_6 - Photo.jpg"
               alt="Vrnjčanka"
               className="w-full h-full object-cover"
             />
@@ -182,14 +182,14 @@ export const VrnjcankaPage: FC = () => {
                   area="40.30m²"
                   price="1.650€/m²"
                   floor="Prizemlje"
-                  image="https://aislike.rs/BOSS/STAN 2 V.png"
+                  image="/images/BOSS/STAN 2 V.png"
                 />
                 <ApartmentCard
                   number="14"
                   area="47.19m²"
                   price="1.700€/m²"
                   floor="III sprat"
-                  image="https://aislike.rs/BOSS/STAN 14 V.png"
+                  image="/images/BOSS/STAN 14 V.png"
                 />
                 
                 <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 mt-12">
@@ -202,14 +202,14 @@ export const VrnjcankaPage: FC = () => {
                       // Set specific images for apartments 17, 23, and 25
                       let image;
                       if (number === 17 || number === 23 || number === 25) {
-                        image = "http://aislike.rs/BOSS/mali.png";
+                        image = "/images/BOSS/mali.png";
                       } else {
                         // Array of available images for other apartments
                         const images = [
-                          "http://aislike.rs/BOSS/srednji.png",
-                          "http://aislike.rs/BOSS/veliki.png",
-                          "https://aislike.rs/BOSS/STAN 2 V.png",
-                          "https://aislike.rs/BOSS/STAN 14 V.png"
+                          "/images/BOSS/srednji.png",
+                          "/images/BOSS/veliki.png",
+                          "/images/BOSS/STAN 2 V.png",
+                          "/images/BOSS/STAN 14 V.png"
                         ];
                         image = images[Math.floor(Math.random() * images.length)];
                       }

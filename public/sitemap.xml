@@ -8,7 +8,7 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>http://aislike.rs/BOSS/1_9 - Photo-min.jpg</image:loc>
+      <image:loc>https://prestigegradnja.rs/images/BOSS/1_9 - Photo-min.jpg</image:loc>
       <image:title>VB Perla - Luksuzni stambeni kompleks u Vrnjačkoj Banji</image:title>
     </image:image>
   </url>
@@ -18,7 +18,7 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>http://aislike.rs/BOSS/3d stanovi/1-18.png</image:loc>
+      <image:loc>https://prestigegradnja.rs/images/BOSS/3d stanovi/1-18.png</image:loc>
       <image:title>Stanovi u prodaji - VB Perla</image:title>
     </image:image>
   </url>
@@ -28,7 +28,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>http://aislike.rs/BOSS/vrnjacka_banja_za_tb_turizam_park_110324_tw1024.jpg</image:loc>
+      <image:loc>https://prestigegradnja.rs/images/BOSS/vrnjacka_banja_za_tb_turizam_park_110324_tw1024.jpg</image:loc>
       <image:title>Lokacija - Centar Vrnjačke Banje</image:title>
     </image:image>
   </url>
@@ -44,7 +44,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>http://aislike.rs/BOSS/1_9 - Photo-min.jpg</image:loc>
+      <image:loc>https://prestigegradnja.rs/images/BOSS/1_9 - Photo-min.jpg</image:loc>
       <image:title>VB Perla - Galerija slika</image:title>
     </image:image>
   </url>
@@ -54,7 +54,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>http://aislike.rs/BOSS/var3_6 - Photo.jpg</image:loc>
+      <image:loc>https://prestigegradnja.rs/images/BOSS/var3_6 - Photo.jpg</image:loc>
       <image:title>Vrnjčanka - Završeni projekat</image:title>
     </image:image>
   </url>

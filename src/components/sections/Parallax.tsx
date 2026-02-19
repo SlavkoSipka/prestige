@@ -1,7 +1,7 @@
 import { type FC } from 'react';
 
 export const Parallax: FC = () => {
-  const imageUrl = "http://aislike.rs/BOSS/1_2 - Photo.jpg";
+  const imageUrl = "/images/BOSS/1_2 - Photo.jpg";
   
   return (
     <section className="relative z-10">

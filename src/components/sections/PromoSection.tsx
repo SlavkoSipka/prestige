@@ -58,7 +58,7 @@ export const PromoSection: FC = () => {
           <div ref={imageRef} className="relative hidden lg:block promo-image">
             <div className="aspect-[4/3] rounded-lg overflow-hidden">
               <img 
-                src="http://aislike.rs/BOSS/pozadinska.jpg"
+                src="/images/BOSS/pozadinska.jpg"
                 alt="VB Perla Interior"
                 className="w-full h-full object-cover"
               />

@@ -110,7 +110,7 @@ export const PropertiesPage: FC = () => {
       <main className="bg-[#0B1A2B] relative overflow-hidden">
         <div className="fixed inset-0 z-0">
           <img
-            src="http://aislike.rs/BOSS/1_9 - Photo-min.jpg"
+            src="/images/BOSS/1_9 - Photo-min.jpg"
             alt="VB Perla"
             className="w-full h-full object-cover"
           />
@@ -137,7 +137,7 @@ export const PropertiesPage: FC = () => {
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-1000" />
                   <img
-                    src="http://aislike.rs/BOSS/pRESTIGE%20VB%20(3).png"
+                    src="/images/BOSS/pRESTIGE%20VB%20(3).png"
                     alt="VB Perla Logo"
                     className="h-10 transform transition-transform duration-500 group-hover:scale-110"
                   />
@@ -194,7 +194,7 @@ export const PropertiesPage: FC = () => {
                     </div>
                     <div className="aspect-[4/3] md:aspect-[4/3] relative overflow-hidden">
                       <img
-                        src="http://aislike.rs/BOSS/3d stanovi/lokal.png"
+                        src="/images/BOSS/3d stanovi/lokal.png"
                         alt="Poslovni prostor L1"
                         className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105 p-4 md:p-0"
                       />

@@ -20,13 +20,13 @@ export const Showcase: FC = () => {
   
   const showcaseContent: ShowcaseContent[] = [
     {
-      image: "http://aislike.rs/BOSS/1_2 - Photo.jpg",
+      image: "/images/BOSS/1_2 - Photo.jpg",
       title: "VB Perla",
       subtitle: "Prestižna Lokacija",
       description: "Smešten u najekskluzivnijem delu Vrnjačke Banje, VB Perla predstavlja vrhunac sofisticiranog životnog prostora. Sa svojom prestižnom lokacijom na samo par koraka od centra i živopisne promenade, ovaj objekat nudi jedinstven spoj luksuza i praktičnosti."
     },
     {
-      image: "http://aislike.rs/BOSS/var3_2 - Photo.jpg",
+      image: "/images/BOSS/var3_2 - Photo.jpg",
       title: "Vrnjčanka",
       subtitle: "Ekskluzivni Dizajn",
       description: "Vrhunski materijali, pažljivo osmišljeni detalji i moderna arhitektura čine Vrnjčanku simbolom luksuza. Svaka jedinica je projektovana da pruži maksimalan komfor i funkcionalnost uz nenadmašan stil života."

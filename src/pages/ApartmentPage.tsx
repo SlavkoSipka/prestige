@@ -59,7 +59,7 @@ export const ApartmentPage: FC = () => {
         <main className="bg-[#0B1A2B] relative overflow-hidden pt-32 pb-20">
           <div className="fixed inset-0 z-0 opacity-50">
             <img
-              src="http://aislike.rs/BOSS/1_3 - Photo-min.jpg"
+              src="/images/BOSS/1_3 - Photo-min.jpg"
               alt="Background"
               className="w-full h-full object-cover"
             />

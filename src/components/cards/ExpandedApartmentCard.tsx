@@ -21,7 +21,7 @@ export const ExpandedApartmentCard: FC<ExpandedApartmentCardProps> = ({
     <div className="flex flex-col md:grid md:grid-cols-2 gap-4 md:gap-8 p-4 md:p-8">
       <div className="relative">
         <img 
-          src="http://aislike.rs/BOSS/3d stanovi/8-16-25.png"
+          src="/images/BOSS/3d stanovi/8-16-25.png"
           alt={`Stan B${number}`}
           className="w-full h-full object-contain rounded"
         />
@@ -75,7 +75,7 @@ export const ExpandedApartmentCard: FC<ExpandedApartmentCardProps> = ({
               type,
               area,
               floor,
-              image: "http://aislike.rs/BOSS/3d stanovi/8-16-25.png"
+              image: "/images/BOSS/3d stanovi/8-16-25.png"
             }}
             className="w-full bg-marina-dark hover:bg-marina-gold/90 text-white py-2.5 md:py-3 px-4 rounded flex items-center justify-center gap-2 transition-all duration-500 backdrop-blur-sm relative overflow-hidden group text-sm"
           >

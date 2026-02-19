@@ -62,7 +62,7 @@ export const Contact: FC = () => {
   <section id="contact" className="relative z-10 py-6 sm:py-8 w-full">
     <div className="absolute inset-0">
       <img 
-        src="http://aislike.rs/BOSS/var3_8 - Photo.jpg"
+        src="/images/BOSS/var3_8 - Photo.jpg"
         alt="Contact Background"
         className="absolute inset-0 w-full h-full object-cover"
       />

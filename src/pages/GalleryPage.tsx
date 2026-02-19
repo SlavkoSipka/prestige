@@ -6,12 +6,12 @@ import { LoadingScreen } from '../components/loading/LoadingScreen';
 import { ImageModal } from '../components/modals/ImageModal';
 
 const GALLERY_IMAGES = [
-  'http://aislike.rs/BOSS/1_9 - Photo-min.jpg',
-  'http://aislike.rs/BOSS/1_2 - Photo-min.jpg',
-  'http://aislike.rs/BOSS/1_3 - Photo-min.jpg',
-  'http://aislike.rs/BOSS/1_8 - Photo-min.jpg',
-  'http://aislike.rs/BOSS/1_4 - Photo-min.jpg',
-  'http://aislike.rs/BOSS/1_5 - Photo-min.jpg'
+  '/images/BOSS/1_9 - Photo-min.jpg',
+  '/images/BOSS/1_2 - Photo-min.jpg',
+  '/images/BOSS/1_3 - Photo-min.jpg',
+  '/images/BOSS/1_8 - Photo-min.jpg',
+  '/images/BOSS/1_4 - Photo-min.jpg',
+  '/images/BOSS/1_5 - Photo-min.jpg'
 ];
 
 export const GalleryPage: FC = () => {
@@ -50,7 +50,7 @@ export const GalleryPage: FC = () => {
         <main className="bg-[#0B1A2B] relative overflow-hidden">
           <div className="fixed inset-0 z-0">
             <img
-              src="http://aislike.rs/BOSS/1_9 - Photo-min.jpg"
+              src="/images/BOSS/1_9 - Photo-min.jpg"
               alt="VB Perla"
               className="w-full h-full object-cover"
             />

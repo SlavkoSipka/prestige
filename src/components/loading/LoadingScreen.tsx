@@ -78,7 +78,7 @@ export const LoadingScreen: FC<LoadingScreenProps> = ({ onLoadingComplete }) => 
     <div className="fixed inset-0 z-[9999] bg-[#0B1A2B] flex items-center justify-center">
       <div className="relative">
         <img
-          src="http://aislike.rs/BOSS/pRESTIGE%20VB%20(3).png"
+          src="/images/BOSS/pRESTIGE%20VB%20(3).png"
           alt="VBprestige Logo"
           className="h-32 animate-[fadeIn_0.5s_ease-out_forwards] opacity-0"
         />

@@ -47,42 +47,42 @@ export const Properties: FC<PropertiesProps> = ({ showContent }) => {
         <div ref={cardsRef} className={`grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-8 ${showContent ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'} transition-all duration-1000 delay-400`}>
           {[
             {
-              image: "http://aislike.rs/BOSS/3d stanovi/1-18.png",
+              image: "/images/BOSS/3d stanovi/1-18.png",
               title: "Stan 18",
               type: "Garsonjera",
               area: "29,20m²",
               features: ["Terasa", "Lift", "Parking"]
             },
             {
-              image: "http://aislike.rs/BOSS/3d stanovi/2-19.png",
+              image: "/images/BOSS/3d stanovi/2-19.png",
               title: "Stan 19",
               type: "Jednosoban",
               area: "40,89m²",
               features: ["Terasa", "Lift", "Parking"]
             },
             {
-              image: "http://aislike.rs/BOSS/3d stanovi/3-20.png",
+              image: "/images/BOSS/3d stanovi/3-20.png",
               title: "Stan 20",
               type: "Garsonjera",
               area: "29,20m²",
               features: ["Terasa", "Lift", "Parking"]
             },
             {
-              image: "http://aislike.rs/BOSS/3d stanovi/4-12-21-29.png",
+              image: "/images/BOSS/3d stanovi/4-12-21-29.png",
               title: "Stan 21",
               type: "Jednosoban",
               area: "47,93m²",
               features: ["Terasa", "Lift", "Parking"]
             },
             {
-              image: "http://aislike.rs/BOSS/3d stanovi/5-13-22-30.png",
+              image: "/images/BOSS/3d stanovi/5-13-22-30.png",
               title: "Stan 22",
               type: "Jednosoban",
               area: "36,29m²",
               features: ["Terasa", "Lift", "Parking"]
             },
             {
-              image: "http://aislike.rs/BOSS/3d stanovi/6-14-23-31.png",
+              image: "/images/BOSS/3d stanovi/6-14-23-31.png",
               title: "Stan 23",
               type: "Jednosoban",
               area: "40,94m²",

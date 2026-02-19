@@ -55,7 +55,7 @@ export const ProjectPage: FC = () => {
           <section className="relative h-[50vh] flex items-center">
             <div className="absolute inset-0">
               <img
-                src="http://aislike.rs/BOSS/var3_8 - Photo.jpg"
+                src="/images/BOSS/var3_8 - Photo.jpg"
                 alt="Project Background"
                 className="w-full h-full object-cover"
               />

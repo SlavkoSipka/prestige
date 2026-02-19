@@ -17,9 +17,9 @@ export const LocationPage: FC = () => {
   const statsRef = useRef<HTMLDivElement>(null);
 
   const gocImages = [
-    'http://aislike.rs/BOSS/goc1.jpg',
-    'http://aislike.rs/BOSS/ski.jpg',
-    'http://aislike.rs/BOSS/goc2.jpg'
+    '/images/BOSS/goc1.jpg',
+    '/images/BOSS/ski.jpg',
+    '/images/BOSS/goc2.jpg'
   ];
 
   useEffect(() => {
@@ -83,7 +83,7 @@ export const LocationPage: FC = () => {
           <section className="relative h-[80vh] flex items-center">
             <div className="absolute inset-0">
               <img
-                src="http://aislike.rs/BOSS/vrnjacka_banja_za_tb_turizam_park_110324_tw1024.jpg"
+                src="/images/BOSS/vrnjacka_banja_za_tb_turizam_park_110324_tw1024.jpg"
                 alt="Vrnjačka Banja"
                 className="w-full h-full object-cover"
               />
@@ -146,7 +146,7 @@ export const LocationPage: FC = () => {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="relative">
                   <img
-                    src="http://aislike.rs/BOSS/1_9 - Photo-min.jpg"
+                    src="/images/BOSS/1_9 - Photo-min.jpg"
                     alt="VB Perla Lokacija"
                     className="rounded-lg shadow-2xl w-full object-cover aspect-[4/3]"
                   />
@@ -202,37 +202,37 @@ export const LocationPage: FC = () => {
                     icon: <Tree className="w-8 h-8 text-marina-gold" />,
                     title: 'Kraljevski Park',
                     description: 'Prostrani park sa preko 180 različitih biljnih vrsta, fontanama i uređenim šetalištima.',
-                    image: 'http://aislike.rs/BOSS/vrnjacka_banja_za_tb_turizam_park_110324_tw1024.jpg'
+                    image: '/images/BOSS/vrnjacka_banja_za_tb_turizam_park_110324_tw1024.jpg'
                   },
                   {
                     icon: <Waves className="w-8 h-8 text-marina-gold" />,
                     title: 'Mineralni Izvori',
                     description: 'Sedam lekovitih mineralnih izvora sa različitim svojstvima i temperaturama.',
-                    image: 'http://aislike.rs/BOSS/mineralni-lekoviti-izvori-vrnjacka-banja-share.png'
+                    image: '/images/BOSS/mineralni-lekoviti-izvori-vrnjacka-banja-share.png'
                   },
                   {
                     icon: <Heart className="w-8 h-8 text-marina-gold" />,
                     title: 'Most Ljubavi',
                     description: 'Kultni most sa katancima ljubavi, inspirisan romantičnom pričom o Nadi i Relji.',
-                    image: 'http://aislike.rs/BOSS/Most_Ljubavi_overview.jpg'
+                    image: '/images/BOSS/Most_Ljubavi_overview.jpg'
                   },
                   {
                     icon: <Coffee className="w-8 h-8 text-marina-gold" />,
                     title: 'Restorani i Kafići',
                     description: 'Bogata gastronomska ponuda sa tradicionalnim i internacionalnim specijalitetima.',
-                    image: 'http://aislike.rs/BOSS/fontana kafic.jpg'
+                    image: '/images/BOSS/fontana kafic.jpg'
                   },
                   {
                     icon: <Car className="w-8 h-8 text-marina-gold" />,
                     title: 'Pristupačnost',
                     description: 'Odlična povezanost sa glavnim putnim pravcima i blizina autoputa.',
-                    image: 'http://aislike.rs/BOSS/pristupacnost.jpg'
+                    image: '/images/BOSS/pristupacnost.jpg'
                   },
                   {
                     icon: <Building2 className="w-8 h-8 text-marina-gold" />,
                     title: 'Moderna Infrastruktura',
                     description: 'Kontinuirana ulaganja u razvoj grada i turističke infrastrukture.',
-                    image: 'http://aislike.rs/BOSS/infrastruktura.jpg'
+                    image: '/images/BOSS/infrastruktura.jpg'
                   }
                 ].map((feature, index) => (
                   <div key={index} className="group relative overflow-hidden rounded-lg">
@@ -388,7 +388,7 @@ export const LocationPage: FC = () => {
 
           {/* Parallax Section */}
           <section className="relative h-[60vh] bg-fixed bg-center bg-cover flex items-center justify-center" style={{
-            backgroundImage: "url('http://aislike.rs/BOSS/Vrh goca.jpeg')"
+            backgroundImage: "url('/images/BOSS/Vrh goca.jpeg')"
           }}>
             <div className="absolute inset-0 bg-gradient-to-b from-[#0B1A2B] via-transparent to-[#0B1A2B] opacity-90" />
             <div className="absolute inset-0 bg-gradient-to-r from-[#0B1A2B]/80 via-transparent to-[#0B1A2B]/80" />

@@ -84,7 +84,7 @@ export const ContactPage: FC = () => {
           <section className="relative h-[60vh] flex items-center">
             <div className="absolute inset-0">
               <img
-                src="http://aislike.rs/BOSS/var3_8 - Photo.jpg"
+                src="/images/BOSS/var3_8 - Photo.jpg"
                 alt="Contact Background"
                 className="w-full h-full object-cover"
               />

@@ -10,7 +10,7 @@ export const Footer: FC = () => {
         <div className="md:col-span-2 text-center md:text-left">
           <div className="flex items-center justify-center md:justify-start gap-4 mb-4 sm:mb-6">
             <img
-              src="http://aislike.rs/BOSS/pRESTIGE%20VB%20(3).png"
+              src="/images/BOSS/pRESTIGE%20VB%20(3).png"
               alt="VBprestige Logo"
               className="h-12 sm:h-16"
             />

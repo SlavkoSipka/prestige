@@ -24,7 +24,7 @@ export const CompanySection: FC = () => (
     <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9IiNDNEE5NjIiIGZpbGwtb3BhY2l0eT0iMC4wNSIvPjwvc3ZnPg==')] opacity-20" />
     <div className="absolute inset-0">
       <img
-        src="http://aislike.rs/BOSS/1_3 - Photo-min.jpg"
+        src="/images/BOSS/1_3 - Photo-min.jpg"
         alt="Prestige Gradnja Background"
         className="w-full h-full object-cover opacity-10"
       />
@@ -34,7 +34,7 @@ export const CompanySection: FC = () => (
       <div className="relative mb-12">
         <div className="flex items-center gap-4 mb-4">
           <img
-            src="http://aislike.rs/BOSS/pRESTIGE%20VB%20(3).png"
+            src="/images/BOSS/pRESTIGE%20VB%20(3).png"
             alt="VBprestige Logo"
             className="h-12"
           />

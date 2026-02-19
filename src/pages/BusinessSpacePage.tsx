@@ -63,7 +63,7 @@ export const BusinessSpacePage: FC = () => {
       <main className="bg-[#0B1A2B] relative overflow-hidden pt-32 pb-20">
         <div className="fixed inset-0 z-0 opacity-50">
           <img
-            src="http://aislike.rs/BOSS/1_3 - Photo-min.jpg"
+            src="/images/BOSS/1_3 - Photo-min.jpg"
             alt="Background"
             className="w-full h-full object-cover"
           />
@@ -207,7 +207,7 @@ export const BusinessSpacePage: FC = () => {
                   <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9IiNDNEE5NjIiIGZpbGwtb3BhY2l0eT0iMC4wNSIvPjwvc3ZnPg==')] opacity-20" />
                   <div className="absolute inset-0 bg-gradient-to-br from-marina-gold/5 via-transparent to-marina-dark/5" />
                   <img 
-                    src="https://aislike.rs/BOSS/crtezi/LOKAL.png"
+                    src="/images/BOSS/crtezi/LOKAL.png"
                     alt="Poslovni prostor L1"
                     className="relative z-10 block w-full h-[400px] sm:h-[650px] object-contain transition-transform duration-700 group-hover:scale-105"
                   />
@@ -275,7 +275,7 @@ export const BusinessSpacePage: FC = () => {
                 
                 <div className="relative group overflow-hidden rounded-lg">
                   <img
-                    src="https://aislike.rs/BOSS/garaza.png"
+                    src="/images/BOSS/garaza.png"
                     alt="Garaža Plan"
                     className="w-full h-48 sm:h-auto object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -288,7 +288,7 @@ export const BusinessSpacePage: FC = () => {
               
               <div className="relative group overflow-hidden rounded-lg">
                 <img
-                  src="https://aislike.rs/BOSS/garaza slika.jpeg"
+                  src="/images/BOSS/garaza slika.jpeg"
                   alt="Garaža Izgled"
                   className="w-full h-48 sm:h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />

@@ -46,7 +46,7 @@ export const NavigationLinks: FC<NavigationLinksProps> = ({ isScrolled }) => {
             >
               <div className="relative overflow-hidden">
                 <img 
-                  src="http://aislike.rs/BOSS/1_9 - Photo-min.jpg" 
+                  src="/images/BOSS/1_9 - Photo-min.jpg" 
                   alt="VB Perla" 
                   className="w-full h-40 object-cover transform transition-transform duration-700 group-hover:scale-110"
                 />
@@ -69,7 +69,7 @@ export const NavigationLinks: FC<NavigationLinksProps> = ({ isScrolled }) => {
             >
               <div className="relative overflow-hidden">
                 <img 
-                  src="http://aislike.rs/BOSS/var3_6 - Photo.jpg" 
+                  src="/images/BOSS/var3_6 - Photo.jpg" 
                   alt="Rezidencija Panorama" 
                   className="w-full h-40 object-cover transform transition-transform duration-700 group-hover:scale-110"
                 />

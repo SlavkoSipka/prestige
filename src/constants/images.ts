@@ -1,13 +1,13 @@
 export const BACKGROUND_IMAGES = [
-  'https://aislike.rs/BOSS/var3_6 - Photo.jpg',
-  'https://aislike.rs/BOSS/var3_2 - Photo.jpg',
-  'https://aislike.rs/BOSS/var3_8 - Photo.jpg'
+  '/images/BOSS/var3_6 - Photo.jpg',
+  '/images/BOSS/var3_2 - Photo.jpg',
+  '/images/BOSS/var3_8 - Photo.jpg'
 ];
 
 export const MOBILE_BACKGROUND_IMAGES = [
-  'https://aislike.rs/BOSS/pozadinska.jpg',
-  'https://aislike.rs/BOSS/pozadina opet.jpg',
-  'https://aislike.rs/BOSS/pozadina postanski.jpg'
+  '/images/BOSS/pozadinska.jpg',
+  '/images/BOSS/pozadina opet.jpg',
+  '/images/BOSS/pozadina postanski.jpg'
 ];
 
 export const INVESTMENT_IMAGES = [

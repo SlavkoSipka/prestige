@@ -33,7 +33,7 @@ export const Location: FC = () => {
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div ref={imageRef} className="relative location-image">
           <img
-            src="http://aislike.rs/BOSS/1_9 - Photo-min.jpg"
+            src="/images/BOSS/1_9 - Photo-min.jpg"
             alt="VB Perla Lokacija"
             className="rounded-lg shadow-2xl w-full object-cover aspect-[4/3] lg:aspect-[4/3]"
           />

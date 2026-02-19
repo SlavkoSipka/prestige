@@ -59,7 +59,7 @@ export const GarageSection: FC = () => (
           
           <div className="relative group overflow-hidden rounded-lg">
             <img
-              src="https://aislike.rs/BOSS/garaza.png"
+              src="/images/BOSS/garaza.png"
               alt="Garaža Plan"
               className="w-full h-48 sm:h-auto object-cover transition-transform duration-700 group-hover:scale-110"
             />
@@ -72,7 +72,7 @@ export const GarageSection: FC = () => (
         
         <div className="relative group overflow-hidden rounded-lg">
           <img
-            src="https://aislike.rs/BOSS/garaza slika.jpeg"
+            src="/images/BOSS/garaza slika.jpeg"
             alt="Garaža Izgled"
             className="w-full h-48 sm:h-full object-cover transition-transform duration-700 group-hover:scale-110"
           />

@@ -23,7 +23,7 @@ export const Navigation: FC<NavigationProps> = ({
         <div className="flex-shrink-0">
           <div className="flex items-center">
             <img
-              src="http://aislike.rs/BOSS/pRESTIGE%20VB%20(3).png"
+              src="/images/BOSS/pRESTIGE%20VB%20(3).png"
               alt="VBprestige Logo"
               className={`transition-all duration-300 ${isScrolled || isMenuOpen ? 'h-16' : 'h-24'}`}
             />
@@ -94,7 +94,7 @@ export const Navigation: FC<NavigationProps> = ({
               className="flex items-start gap-4 p-4 hover:bg-marina-gold/10 rounded-lg transition-all duration-300 group"
             >
               <img 
-                src="http://aislike.rs/BOSS/1_9 - Photo-min.jpg"
+                src="/images/BOSS/1_9 - Photo-min.jpg"
                 alt="VB Perla"
                 className="w-20 h-20 object-cover rounded"
               />
@@ -112,7 +112,7 @@ export const Navigation: FC<NavigationProps> = ({
               className="flex items-start gap-4 p-4 hover:bg-marina-gold/10 rounded-lg transition-all duration-300 group"
             >
               <img 
-                src="http://aislike.rs/BOSS/var3_6 - Photo.jpg"
+                src="/images/BOSS/var3_6 - Photo.jpg"
                 alt="Rezidencija Panorama"
                 className="w-20 h-20 object-cover rounded"
               />

@@ -59,7 +59,7 @@ export const Hero: FC<HeroProps> = ({
     >
       <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent" />
       <img
-        src="http://aislike.rs/BOSS/pRESTIGE%20VB%20(3).png"
+        src="/images/BOSS/pRESTIGE%20VB%20(3).png"
         alt="VBprestige Logo"
         className="h-16 sm:h-20 md:h-24 mx-auto opacity-0 animate-[fadeIn_1s_ease-out_forwards]"
       />
@@ -94,7 +94,7 @@ export const Hero: FC<HeroProps> = ({
               >
                 <div className="relative overflow-hidden">
                   <img 
-                    src="http://aislike.rs/BOSS/1_9 - Photo-min.jpg" 
+                    src="/images/BOSS/1_9 - Photo-min.jpg" 
                     alt="VB Perla" 
                     className="w-full h-32 sm:h-40 md:h-48 object-cover transform transition-transform duration-700 group-hover:scale-110"
                   />
@@ -117,7 +117,7 @@ export const Hero: FC<HeroProps> = ({
               >
                 <div className="relative overflow-hidden">
                   <img 
-                    src="http://aislike.rs/BOSS/var3_6 - Photo.jpg" 
+                    src="/images/BOSS/var3_6 - Photo.jpg" 
                     alt="Vrnjčanka" 
                     className="w-full h-32 sm:h-40 md:h-48 object-cover transform transition-transform duration-700 group-hover:scale-110"
                   />
