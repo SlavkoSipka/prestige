@@ -46,14 +46,7 @@ export const ApartmentCard: FC<ApartmentCardProps> = ({ number, type, area, stat
     }
   }, [shouldHighlight]);
 
-  const statusColors = {
-    available: 'bg-emerald-500',
-    sold: 'bg-red-500',
-    reserved: 'bg-amber-500'
-  };
-
-  // Override status to always show as available
-  const displayStatus = 'available';
+  const isSold = status === 'sold';
 
   const getImage = (number: string) => {
     if (number === '1') return '/images/BOSS/3d stanovi/1-18.png';
@@ -100,23 +93,31 @@ export const ApartmentCard: FC<ApartmentCardProps> = ({ number, type, area, stat
   return (
     <div 
       ref={cardRef}
-      className={`group relative bg-gradient-to-br from-[#1B3964] to-[#0B1A2B] backdrop-blur-sm border border-marina-gold/20 rounded-lg overflow-hidden transition-all duration-500 hover:bg-marina-blue hover:border-marina-gold/40 shadow-lg transform ${shouldHighlight ? 'border-marina-gold opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
+      className={`group relative bg-gradient-to-br from-[#1B3964] to-[#0B1A2B] backdrop-blur-sm border rounded-lg overflow-hidden transition-all duration-500 shadow-lg transform ${shouldHighlight ? 'border-marina-gold opacity-100 translate-y-0' : 'opacity-0 translate-y-12'} ${isSold ? 'border-red-500/30 cursor-not-allowed' : 'border-marina-gold/20 hover:bg-marina-blue hover:border-marina-gold/40'}`}
     >
-      <div className="aspect-[3/2] sm:aspect-[4/3] relative overflow-hidden">
+      <div className={`aspect-[3/2] sm:aspect-[4/3] relative overflow-hidden ${isSold ? 'blur-[2px]' : ''}`}>
         <img
           src={getImage(number)}
           alt={`Stan ${number}`}
-          className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
+          className="w-full h-full object-contain transition-transform duration-700"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0B1A2B]/90 via-[#1B3964]/30 to-transparent" />
         <div className="absolute top-3 right-3">
-          <span className={`px-2 py-1 rounded-full text-xs font-medium text-white shadow-md backdrop-blur-sm ${statusColors[displayStatus]}`}>
-            Dostupno
+          <span className={`px-2 py-1 rounded-full text-xs font-medium text-white shadow-md backdrop-blur-sm ${isSold ? 'bg-red-500' : 'bg-emerald-500'}`}>
+            {isSold ? 'Prodato' : 'Dostupno'}
           </span>
         </div>
       </div>
 
-      <div className="p-3 sm:p-4">
+      {isSold && (
+        <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+          <span className="text-red-500 font-black text-4xl sm:text-5xl transform -rotate-12 select-none tracking-widest opacity-90 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+            PRODATO
+          </span>
+        </div>
+      )}
+
+      <div className={`p-3 sm:p-4 ${isSold ? 'blur-[2px] opacity-50' : ''}`}>
         <div className="flex items-center gap-1.5 sm:gap-2 mb-2 sm:mb-3">
           <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-lg bg-marina-gold/10 flex items-center justify-center">
             <Home className="w-4 h-4 text-marina-gold" />
@@ -143,21 +144,27 @@ export const ApartmentCard: FC<ApartmentCardProps> = ({ number, type, area, stat
         </div>
 
         <div className="pt-3 border-t border-marina-gold/20">
-          <Link 
-            to={getLink()}
-            state={{ 
-              scrollPosition: window.scrollY,
-              type,
-              area,
-              floor,
-              image: getImage(number)
-            }}
-            className="w-full bg-marina-dark group-hover:bg-marina-gold text-white py-1.5 sm:py-2 px-2 sm:px-3 rounded flex items-center justify-center gap-1 sm:gap-2 transition-all duration-500 backdrop-blur-sm group-hover:text-marina-dark relative overflow-hidden text-[10px] sm:text-sm" 
-          >
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-1000" />
-            <span>Više</span>
-            <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:translate-x-1" />
-          </Link>
+          {isSold ? (
+            <div className="w-full bg-red-500/20 text-red-400 py-1.5 sm:py-2 px-2 sm:px-3 rounded flex items-center justify-center gap-1 sm:gap-2 text-[10px] sm:text-sm font-medium">
+              <span>Prodato</span>
+            </div>
+          ) : (
+            <Link 
+              to={getLink()}
+              state={{ 
+                scrollPosition: window.scrollY,
+                type,
+                area,
+                floor,
+                image: getImage(number)
+              }}
+              className="w-full bg-marina-dark group-hover:bg-marina-gold text-white py-1.5 sm:py-2 px-2 sm:px-3 rounded flex items-center justify-center gap-1 sm:gap-2 transition-all duration-500 backdrop-blur-sm group-hover:text-marina-dark relative overflow-hidden text-[10px] sm:text-sm" 
+            >
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-1000" />
+              <span>Više</span>
+              <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:translate-x-1" />
+            </Link>
+          )}
         </div>
       </div>
     </div>

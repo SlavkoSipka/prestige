@@ -207,14 +207,14 @@ export const PropertiesPage: FC = () => {
                 number="1"
                 type="Garsonjera"
                 area="29,20m²"
-                status="available"
+                status="sold"
                 floor="I sprat"
               />
               <ApartmentCard
                 number="2"
                 type="Jednosoban"
                 area="40,89m²"
-                status="reserved"
+                status="sold"
                 floor="I sprat"
               />
               <ApartmentCard
@@ -228,7 +228,7 @@ export const PropertiesPage: FC = () => {
                 number="4"
                 type="Jednosoban"
                 area="47,93m²"
-                status="available"
+                status="sold"
                 floor="I sprat"
               />
               <ApartmentCard
@@ -238,11 +238,12 @@ export const PropertiesPage: FC = () => {
                 status="sold"
                 floor="I sprat"
               />
+
               <ApartmentCard
                 number="6"
                 type="Jednosoban"
                 area="40,94m²"
-                status="available"
+                status="sold"
                 floor="I sprat"
               />
               <ApartmentCard
@@ -263,7 +264,7 @@ export const PropertiesPage: FC = () => {
                 number="9"
                 type="Jednosoban"
                 area="47,93m²"
-                status="available"
+                status="sold"
                 floor="I sprat"
               />
               <ApartmentCard
@@ -284,7 +285,7 @@ export const PropertiesPage: FC = () => {
                 number="12"
                 type="Jednosoban"
                 area="47,93m²"
-                status="available"
+                status="sold"
                 floor="II sprat"
               />
             </div>
@@ -300,35 +301,35 @@ export const PropertiesPage: FC = () => {
                 number="13"
                 type="Jednosoban"
                 area="36,29m²"
-                status="available"
+                status="sold"
                 floor="II sprat"
               />
               <ApartmentCard
                 number="14"
                 type="Jednosoban"
                 area="40,94m²"
-                status="available"
+                status="sold"
                 floor="II sprat"
               />
               <ApartmentCard
                 number="15"
                 type="Jednosoban"
                 area="40,78m²"
-                status="reserved"
+                status="sold"
                 floor="II sprat"
               />
               <ApartmentCard
                 number="16"
                 type="Jednosoban"
                 area="36,29m²"
-                status="available"
+                status="sold"
                 floor="II sprat"
               />
               <ApartmentCard
                 number="17"
                 type="Jednosoban"
                 area="47,93m²"
-                status="available"
+                status="sold"
                 floor="II sprat"
               />
               <ApartmentCard
@@ -427,21 +428,21 @@ export const PropertiesPage: FC = () => {
                 number="21"
                 type="Jednosoban"
                 area="47,93m²"
-                status="available"
+                status="sold"
                 floor="III sprat"
               />
               <ApartmentCard
                 number="22"
                 type="Jednosoban"
                 area="36,29m²"
-                status="available"
+                status="sold"
                 floor="III sprat"
               />
               <ApartmentCard
                 number="23"
                 type="Jednosoban"
                 area="40,94m²"
-                status="reserved"
+                status="sold"
                 floor="III sprat"
               />
               <ApartmentCard
@@ -462,6 +463,7 @@ export const PropertiesPage: FC = () => {
                 area="36,29m²"
                 floor="III sprat"
                 hasBalcony={true}
+                sold={true}
               />
             </div>
           </div>
@@ -493,7 +495,7 @@ export const PropertiesPage: FC = () => {
                 number="29"
                 type="Jednosoban"
                 area="47,93m²"
-                status="available"
+                status="sold"
                 floor="IV sprat"
               />
               <ApartmentCard
