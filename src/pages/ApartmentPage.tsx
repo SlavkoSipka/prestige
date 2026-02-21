@@ -15,7 +15,7 @@ export const ApartmentPage: FC = () => {
   const { state } = useLocation();
   const navigate = useNavigate();
   const details = APARTMENT_DETAILS[id ?? ''];
-  const pricePerSquareMeter = parseFloat(details?.netArea || '0') < 40 ? '1.900' : '1.800';
+  const pricePerSquareMeter = '2.000';
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [showNavbar, setShowNavbar] = useState(false);

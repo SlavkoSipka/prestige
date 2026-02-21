@@ -109,7 +109,7 @@ export const Properties: FC<PropertiesProps> = ({ showContent }) => {
                   <div className="flex items-center justify-between text-white/70">
                     <span className="text-[11px] sm:text-base whitespace-nowrap">Cena:</span>
                     <p className="text-[11px] sm:text-base font-medium text-white">
-                      od {parseFloat(apartment.area) < 40 ? '1.900' : '1.800'}€/m²
+                      od 2.000€/m²
                     </p>
                   </div>
                   <div className="flex items-center justify-between text-white/70">

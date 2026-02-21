@@ -16,7 +16,7 @@ export const ApartmentCard: FC<ApartmentCardProps> = ({ number, type, area, stat
   const location = useLocation();
   const shouldHighlight = location.state?.highlightApartment === number;
 
-  const pricePerSquareMeter = parseFloat(area) < 40 ? '1.900' : '1.800';
+  const pricePerSquareMeter = '2.000';
 
   useEffect(() => {
     const observer = new IntersectionObserver(

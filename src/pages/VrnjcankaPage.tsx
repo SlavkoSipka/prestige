@@ -180,14 +180,14 @@ export const VrnjcankaPage: FC = () => {
                 <ApartmentCard
                   number="2"
                   area="40.30m²"
-                  price="1.650€/m²"
+                  price="2.000€/m²"
                   floor="Prizemlje"
                   image="/images/BOSS/STAN 2 V.png"
                 />
                 <ApartmentCard
                   number="14"
                   area="47.19m²"
-                  price="1.700€/m²"
+                  price="2.000€/m²"
                   floor="III sprat"
                   image="/images/BOSS/STAN 14 V.png"
                 />
